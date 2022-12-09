@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.body {
+font-family: 'Roboto', sans-serif;
+font-size: 19px;
+font-weight: normal;
+background: rgb(252, 246, 247);
+}
+a {
+    color: blue;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  a:active {
+   color: magenta;
+  }
+  .container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 25px;
+  }
+  .photo {
+    width: 200px;
+    border-radius: 29px;
+  }
+  .info {
+    margin-bottom: 25px;
+    display: flex;
+  }
+  .info-text {
+    margin-left: 40px;
+  }
+  
+  .info-text p {
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(29, 27, 27);
+    margin: 0;
+  }
+  
+  .info-text h4 {
+    margin-bottom: 15px;
+  }
+  @media (max-width: 650px) {
+    .info {
+      display: block;
+      text-align: center;
+    }
+  }
+  .center h2{
+    text-align: center;
+  }
+  .card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+  }
+  .card h2 {
+    margin-bottom: 10px;
+  }
+  .list {
+    padding: 0 20px;
+  }
+  .list li {
+    margin-bottom: 10px;
+  }
+  .table {
+    width: 100%;
+  }
+  .table td {
+    padding-bottom: 10px;
+  }
+    .btn {
+      background: rgb(0, 0, 0);
+      color:aliceblue;
+      padding: 13px 17px;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+    .btn:hover {
+      opacity: 0.7;
+    }
+    .form h2 {
+        text-align: center;
+      }
+      
+      .form-row {
+        margin-bottom: 10px;
+        display: flex;
+      }
+      
+      .form-row .form-group {
+        margin-right: 20px;
+        width: 50%;
+      }
+      
+      .form-row .form-group:last-child {
+        margin-right: 0;
+      }
+      @media (max-width: 650px) {
+        .form-row {
+          display: block;
+        }
+      
+        .form-row .form-group {
+          width: 100%;
+          margin-right: 0;
+          margin-bottom: 10px;
+        }
+      }
+      
+      .form-group label {
+        display: block;
+        font-size: 14px;
+      }
+      
+      .form-group input,
+      .form-group textarea {
+        width: 100%;
+        box-sizing: border-box;
+        border: none;
+        background: transparent;
+        border-bottom: 1px solid #ccc;
+        padding: 15px 0 10px;
+        outline: none;
+        font-family: inherit;
+      }
